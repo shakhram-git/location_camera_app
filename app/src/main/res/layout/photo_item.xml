@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:background="@drawable/eiffel_tower_example"
+        app:cardElevation="200dp"
+        android:layout_margin="4dp">
+        <ImageView
+            android:id="@+id/photo_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/eiffel_tower_example"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/photo_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#7000"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            tools:text="2012-03-12 14:15:37"
+            android:gravity="center"
+            android:padding="6dp"/>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

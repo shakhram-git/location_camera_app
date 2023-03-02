@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="address_format">%1$s, %2$s %3$s</string>
+</resources>
